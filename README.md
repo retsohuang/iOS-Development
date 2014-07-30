@@ -40,6 +40,7 @@ List of iOS Frameworks, Articles, E-Books and more.
 
 ### Database
 * [Realm](http://realm.io) - Realm is a modern data framework & database for iOS & OSX.
+* [Realm-JSON](https://github.com/matthewcheok/Realm-JSON) - A concise Mantle-like way of working with Realm and JSON.
 * [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) - Super Awesome Easy Fetching for Core Data.
 
 ### Networking
