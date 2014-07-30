@@ -8,20 +8,20 @@ List of iOS Frameworks, Articles, E-Books and more.
 
 - [Articles](#articles)
 - [CocoaPods Libraries](#cocoapods-libraries)
-  - [Data Process](#data-process)
-  - [Database](#database)
-  - [Networking](#networking)
-  - [Passbook](#passbook)
-  - [UI](#ui)
-  - [My Podfile](#my-podfile)
+    - [Data Process](#data-process)
+    - [Database](#database)
+    - [Networking](#networking)
+    - [Passbook](#passbook)
+    - [UI](#ui)
+    - [My Podfile](#my-podfile)
 - [Frameworks](#frameworks)
 - [Debugging](#debugging)
 - [E-Book](#e-book)
 - [OTA Install URL Prefix](#ota-install-url-prefix)
 - [Folder](#folder)
 - [Xcode](#xcode)
-  - [Packge Manager](#packge-manager)
-  - [Plugin](#plugin)
+    - [Packge Manager](#packge-manager)
+    - [Plugin](#plugin)
 - [Documentation](#documentation)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -35,23 +35,23 @@ List of iOS Frameworks, Articles, E-Books and more.
 * [The official raywenderlich.com Objective-C style guide.](https://github.com/raywenderlich/objective-c-style-guide#language)
 
 # CocoaPods Libraries
-## Data Process
+### Data Process
 * [NSDate-TKExtensions](https://github.com/mapedd/NSDate-TKExtensions.git) - Set of usefull categories for NSDate.
 
-## Database
+### Database
 * [Realm](http://realm.io) - Realm is a modern data framework & database for iOS & OSX.
 * [MagicalRecord](https://github.com/magicalpanda/MagicalRecord) - Super Awesome Easy Fetching for Core Data.
 
-## Networking
+### Networking
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking.git) - A delightful iOS and OS X networking framework.
 
-## Passbook
+### Passbook
 * [passbook](https://github.com/frozon/passbook) - Passbook gem let's you create pkpass for passbook iOS 6.
 
-## UI
-* [HexColors](ttps://github.com/mRs-/HexColors.git) - Easy HEX-Color and RGB-Color Handling for UIColor and NSColor as a drop in category. Former MLUIColorAdditions.
+### UI
+* [HexColors](https://github.com/mRs-/HexColors.git) - Easy HEX-Color and RGB-Color Handling for UIColor and NSColor as a drop in category. Former MLUIColorAdditions.
 
-## My Podfile
+### My Podfile
 ```ruby
 # Database
 pod 'Realm'
@@ -67,12 +67,12 @@ pod 'HexColors'
 
 # Debugging
 * Pretty log
-```objc
+```c
 #define NSLog(__FORMAT__, ...) NSLog((@"[%@] [Line %d] -> " __FORMAT__), [[NSString stringWithUTF8String:__FILE__] lastPathComponent] , __LINE__, ##__VA_ARGS__)
 ```
 
 * Pretty Alert
-```objc
+```c
 #define DebugAlert(__FORMAT__, ...)  { UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Debug Message"] message:[NSString stringWithFormat:@"[%@] \n [Line %d] \n" __FORMAT__, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, ##__VA_ARGS__]  delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil]; dispatch_async(dispatch_get_main_queue(), ^{ [alert show]; }); }
 ```
 
@@ -93,10 +93,10 @@ itms-services://?action=download-manifest&url=<plist link>
 ```
 
 # Xcode
-## Packge Manager
+### Packge Manager
 * [Alcatraz](http://alcatraz.io) - The package manager for Xcode
 
-## Plugin
+### Plugin
 * [KSImageNamed](http://ksuther.com/2013/01/22/ksimagenamed-xcode-autocomplete-for-imagenamed/) - Xcode autocomplete for imageNamed
 * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) - Xcode plug-in which helps you write Javadoc style documents easier.
 * [XToDo](https://github.com/trawor/XToDo) - Xcode plugin to collect and list the `TODO`,`FIXME`,`???`,`!!!!`.
