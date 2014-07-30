@@ -2,6 +2,30 @@
 
 List of iOS Frameworks, Articles, E-Books and more.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Articles](#articles)
+- [CocoaPods Libraries](#cocoapods-libraries)
+  - [Data Process](#data-process)
+  - [Database](#database)
+  - [Networking](#networking)
+  - [Passbook](#passbook)
+  - [UI](#ui)
+  - [My Podfile](#my-podfile)
+- [Frameworks](#frameworks)
+- [Debugging](#debugging)
+- [E-Book](#e-book)
+- [OTA Install URL Prefix](#ota-install-url-prefix)
+- [Folder](#folder)
+- [Xcode](#xcode)
+  - [Packge Manager](#packge-manager)
+  - [Plugin](#plugin)
+- [Documentation](#documentation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Articles
 * [The Right Way to Ask Users for iOS Permissions](https://medium.com/p/96fa4eb54f2c)
 * [The New York Times Mobile Team’s Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide#notifications)
@@ -27,7 +51,7 @@ List of iOS Frameworks, Articles, E-Books and more.
 ## UI
 * [HexColors](ttps://github.com/mRs-/HexColors.git) - Easy HEX-Color and RGB-Color Handling for UIColor and NSColor as a drop in category. Former MLUIColorAdditions.
 
-# My Podfile
+## My Podfile
 ```ruby
 # Database
 pod 'Realm'
@@ -68,8 +92,11 @@ itms-services://?action=download-manifest&url=<plist link>
 ~/Library/MobileDevice/Provisioning\ Profiles
 ```
 
-# Plugin
+# Xcode
+## Packge Manager
 * [Alcatraz](http://alcatraz.io) - The package manager for Xcode
+
+## Plugin
 * [KSImageNamed](http://ksuther.com/2013/01/22/ksimagenamed-xcode-autocomplete-for-imagenamed/) - Xcode autocomplete for imageNamed
 * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) - Xcode plug-in which helps you write Javadoc style documents easier.
 * [XToDo](https://github.com/trawor/XToDo) - Xcode plugin to collect and list the `TODO`,`FIXME`,`???`,`!!!!`.
