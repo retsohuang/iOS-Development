@@ -64,34 +64,23 @@ pod 'AFNetworking'
 pod 'HexColors'
 ```
 
-# Frameworks
-
-# Debugging
-* Pretty log
-```c
-#define NSLog(__FORMAT__, ...) NSLog((@"[%@] [Line %d] -> " __FORMAT__), [[NSString stringWithUTF8String:__FILE__] lastPathComponent] , __LINE__, ##__VA_ARGS__)
-```
-
-* Pretty Alert
-```c
-#define DebugAlert(__FORMAT__, ...)  { UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Debug Message"] message:[NSString stringWithFormat:@"[%@] \n [Line %d] \n" __FORMAT__, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, ##__VA_ARGS__]  delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil]; dispatch_async(dispatch_get_main_queue(), ^{ [alert show]; }); }
-```
-
+# Documentation
+* [CocoaDocs](http://cocoadocs.org) - Hosted documentation for Mac / iOS libraries.
 
 # E-Book
 * [iOS Succinctly - FREE](http://ios-blog.co.uk/resources/ios-succinctly-free-e-book/)
 * [iOS7 Day by Day](https://leanpub.com/ios7daybyday)
 
-# OTA Install URL Prefix
-```html
-itms-services://?action=download-manifest&url=<plist link>
-```
+# Frameworks
 
-# Folder
+# System
 **Provisioning Profiles folder path**
 ```ruby
 ~/Library/MobileDevice/Provisioning\ Profiles
 ```
+
+# Swift
+* [An attempt to gather all that is in flux in Swift.](https://github.com/ksm/SwiftInFlux)
 
 # Xcode
 ### Packge Manager
@@ -102,6 +91,3 @@ itms-services://?action=download-manifest&url=<plist link>
 * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) - Xcode plug-in which helps you write Javadoc style documents easier.
 * [XToDo](https://github.com/trawor/XToDo) - Xcode plugin to collect and list the `TODO`,`FIXME`,`???`,`!!!!`.
 * [CocoaPodUI](https://github.com/Galeas/CocoaPodUI) - Xcode plugin that implements CocoaPods GUI.
-
-# Documentation
-* [CocoaDocs](http://cocoadocs.org) - Hosted documentation for Mac / iOS libraries.
