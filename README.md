@@ -84,6 +84,10 @@ pod 'HexColors'
 
 # Swift
 * [An attempt to gather all that is in flux in Swift.](https://github.com/ksm/SwiftInFlux)
+* [Alamofire](https://github.com/Alamofire/Alamofire) - Elegant Networking in Swift.
+
+# Tools
+* [Nomad](http://nomad-cli.com) - world-class command line utilities for iOS development
 
 # Xcode
 ### Packge Manager
