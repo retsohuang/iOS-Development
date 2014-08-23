@@ -11,8 +11,10 @@ List of iOS Frameworks, Articles, E-Books and more.
     - [Data Process](#data-process)
     - [Database](#database)
     - [Extension](#extension)
+    - [Location](#location)
     - [Networking](#networking)
     - [Passbook](#passbook)
+    - [ReactiveCocoa](#reactivecocoa)
     - [UI](#ui)
     - [My Podfile](#my-podfile)
 - [Documentation](#documentation)
@@ -48,11 +50,18 @@ List of iOS Frameworks, Articles, E-Books and more.
 ### Extension
 * [onepassword-app-extension](https://github.com/AgileBits/onepassword-app-extension) - 1Password Extension for iOS Apps
 
+### Location
+* [MMPReactiveCoreLocation](https://github.com/mpurbo/MMPReactiveCoreLocation) - A reactive CoreLocation wrapper for use with ReactiveCocoa.
+
 ### Networking
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking.git) - A delightful iOS and OS X networking framework.
 
 ### Passbook
 * [passbook](https://github.com/frozon/passbook) - Passbook gem let's you create pkpass for passbook iOS 6.
+
+### ReactiveCocoa
+* [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - A framework for composing and transforming streams of values.
+* [AFNetworking-RACExtensions](https://github.com/CodaFi/AFNetworking-RACExtensions.git) - A delightful extension to the AFNetworking classes for iOS and Mac OS X.
 
 ### UI
 * [HexColors](https://github.com/mRs-/HexColors.git) - Easy HEX-Color and RGB-Color Handling for UIColor and NSColor as a drop in category. Former MLUIColorAdditions.
@@ -65,6 +74,10 @@ pod 'Realm'
 
 # Networking
 pod 'AFNetworking'
+pod 'AFNetworking-RACExtensions', :git => 'https://github.com/CodaFi/AFNetworking-RACExtensions.git', :tag => '0.1.5'
+
+# ReactiveCocoa
+pod 'ReactiveCocoa'
 
 # UI
 pod 'HexColors'
