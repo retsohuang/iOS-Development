@@ -20,6 +20,7 @@ List of iOS Frameworks, Articles, E-Books and more.
 - [Documentation](#documentation)
 - [E-Book](#e-book)
 - [Frameworks](#frameworks)
+- [Repository](#repository)
 - [System](#system)
 - [Swift](#swift)
 - [Tools](#tools)
@@ -91,6 +92,9 @@ pod 'HexColors'
 * [iOS7 Day by Day](https://leanpub.com/ios7daybyday)
 
 # Frameworks
+
+# Repository
+* [iOS8-Sampler](https://github.com/shu223/iOS8-Sampler) - Code examples for the new functions of iOS 8.
 
 # System
 **Provisioning Profiles folder path**
