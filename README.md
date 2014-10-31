@@ -38,6 +38,7 @@ List of iOS Frameworks, Articles, E-Books and more.
 * [讓 Xcode 專案易於版本控制的方法](http://nelson.logdown.com/posts/2014/01/27/easy-version-control-mechanism-for-xcode-projects)
 * [The official raywenderlich.com Objective-C style guide.](https://github.com/raywenderlich/objective-c-style-guide#language)
 * [git-flow cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/) - This cheatsheet shows the basic usage and effect of git-flow operations
+* [The official Swift style guide for raywenderlich.com.](https://github.com/raywenderlich/swift-style-guide)
 
 # CocoaPods Libraries
 ### Data Process
@@ -93,6 +94,9 @@ pod 'HexColors'
 
 # Frameworks
 
+# Websites
+* [Swift Toolbox](http://www.swifttoolbox.io) - Swift toolbox is a community-supported catalog of iOS and OSX libraries written in the Swift Programming Language.
+
 # Repository
 * [iOS8-Sampler](https://github.com/shu223/iOS8-Sampler) - Code examples for the new functions of iOS 8.
 
@@ -105,6 +109,8 @@ pod 'HexColors'
 # Swift
 * [An attempt to gather all that is in flux in Swift.](https://github.com/ksm/SwiftInFlux)
 * [Alamofire](https://github.com/Alamofire/Alamofire) - Elegant Networking in Swift.
+* [SwiftDate](https://github.com/haginile/SwiftDate) - A Smart Date/Calendar Library Written in Swift 
+http://stockfuse.com
 
 # Tools
 * [Nomad](http://nomad-cli.com) - world-class command line utilities for iOS development
