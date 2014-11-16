@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <meta name="description" content="iOS Development : List of iOS Frameworks, Articles, E-Books and more for developers.">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>iOS Development by retsohuang</title>
+    <title>iOS Development</title>
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1>iOS Development</h1>
-        <h2>List of iOS Frameworks, Articles, E-Books and more.</h2>
-        <a href="https://github.com/retsohuang/iOS-Development" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/retsohuang/iOS-Development">View on GitHub</a>
+
+          <h1 id="project_title">iOS Development</h1>
+          <h2 id="project_tagline">List of iOS Frameworks, Articles, E-Books and more for developers.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/retsohuang/iOS-Development/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/retsohuang/iOS-Development/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="ios-development" class="anchor" href="#ios-development" aria-hidden="true"><span class="octicon octicon-link"></span></a>iOS-Development</h1>
+
+<p>List of iOS Frameworks, Articles, E-Books and more for developers.</p>
+
+
 
 
 
@@ -42,17 +50,23 @@
 <ul>
 <li><a href="#data-process">Data Process</a></li>
 <li><a href="#database">Database</a></li>
+<li><a href="#extension">Extension</a></li>
+<li><a href="#location">Location</a></li>
 <li><a href="#networking">Networking</a></li>
 <li><a href="#passbook">Passbook</a></li>
+<li><a href="#reactivecocoa">ReactiveCocoa</a></li>
 <li><a href="#ui">UI</a></li>
 <li><a href="#my-podfile">My Podfile</a></li>
 </ul>
 </li>
-<li><a href="#frameworks">Frameworks</a></li>
-<li><a href="#debugging">Debugging</a></li>
+<li><a href="#documentation">Documentation</a></li>
 <li><a href="#e-book">E-Book</a></li>
-<li><a href="#ota-install-url-prefix">OTA Install URL Prefix</a></li>
-<li><a href="#folder">Folder</a></li>
+<li><a href="#frameworks">Frameworks</a></li>
+<li><a href="#websites">Websites</a></li>
+<li><a href="#repository">Repository</a></li>
+<li><a href="#system">System</a></li>
+<li><a href="#swift">Swift</a></li>
+<li><a href="#tools">Tools</a></li>
 <li>
 <a href="#xcode">Xcode</a>
 
@@ -61,9 +75,12 @@
 <li><a href="#plugin">Plugin</a></li>
 </ul>
 </li>
-<li><a href="#documentation">Documentation</a></li>
-</ul><h1>
-<a name="articles" class="anchor" href="#articles"><span class="octicon octicon-link"></span></a>Articles</h1>
+</ul>
+
+
+
+<h1>
+<a id="articles" class="anchor" href="#articles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Articles</h1>
 
 <ul>
 <li><a href="https://medium.com/p/96fa4eb54f2c">The Right Way to Ask Users for iOS Permissions</a></li>
@@ -72,17 +89,25 @@
 <li><a href="http://cocoaheads.tv/taming-xcode-by-jay-thrash/">Taming Xcode by Jay Thrash</a></li>
 <li><a href="http://nelson.logdown.com/posts/2014/01/27/easy-version-control-mechanism-for-xcode-projects">讓 Xcode 專案易於版本控制的方法</a></li>
 <li><a href="https://github.com/raywenderlich/objective-c-style-guide#language">The official raywenderlich.com Objective-C style guide.</a></li>
-</ul><h1>
-<a name="cocoapods-libraries" class="anchor" href="#cocoapods-libraries"><span class="octicon octicon-link"></span></a>CocoaPods Libraries</h1>
+<li>
+<a href="http://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a> - This cheatsheet shows the basic usage and effect of git-flow operations</li>
+<li><a href="https://github.com/raywenderlich/swift-style-guide">The official Swift style guide for raywenderlich.com.</a></li>
+<li><a href="http://robots.thoughtbot.com/xcode-and-git-bridging-the-gap">Xcode and git: bridging the gap</a></li>
+</ul>
+
+<h1>
+<a id="cocoapods-libraries" class="anchor" href="#cocoapods-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>CocoaPods Libraries</h1>
 
 <h3>
-<a name="data-process" class="anchor" href="#data-process"><span class="octicon octicon-link"></span></a>Data Process</h3>
+<a id="data-process" class="anchor" href="#data-process" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Process</h3>
 
 <ul>
 <li>
 <a href="https://github.com/mapedd/NSDate-TKExtensions.git">NSDate-TKExtensions</a> - Set of usefull categories for NSDate.</li>
-</ul><h3>
-<a name="database" class="anchor" href="#database"><span class="octicon octicon-link"></span></a>Database</h3>
+</ul>
+
+<h3>
+<a id="database" class="anchor" href="#database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Database</h3>
 
 <ul>
 <li>
@@ -91,84 +116,163 @@
 <a href="https://github.com/matthewcheok/Realm-JSON">Realm-JSON</a> - A concise Mantle-like way of working with Realm and JSON.</li>
 <li>
 <a href="https://github.com/magicalpanda/MagicalRecord">MagicalRecord</a> - Super Awesome Easy Fetching for Core Data.</li>
-</ul><h3>
-<a name="networking" class="anchor" href="#networking"><span class="octicon octicon-link"></span></a>Networking</h3>
+</ul>
+
+<h3>
+<a id="extension" class="anchor" href="#extension" aria-hidden="true"><span class="octicon octicon-link"></span></a>Extension</h3>
+
+<ul>
+<li>
+<a href="https://github.com/AgileBits/onepassword-app-extension">onepassword-app-extension</a> - 1Password Extension for iOS Apps</li>
+</ul>
+
+<h3>
+<a id="location" class="anchor" href="#location" aria-hidden="true"><span class="octicon octicon-link"></span></a>Location</h3>
+
+<ul>
+<li>
+<a href="https://github.com/mpurbo/MMPReactiveCoreLocation">MMPReactiveCoreLocation</a> - A reactive CoreLocation wrapper for use with ReactiveCocoa.</li>
+</ul>
+
+<h3>
+<a id="networking" class="anchor" href="#networking" aria-hidden="true"><span class="octicon octicon-link"></span></a>Networking</h3>
 
 <ul>
 <li>
 <a href="https://github.com/AFNetworking/AFNetworking.git">AFNetworking</a> - A delightful iOS and OS X networking framework.</li>
-</ul><h3>
-<a name="passbook" class="anchor" href="#passbook"><span class="octicon octicon-link"></span></a>Passbook</h3>
+</ul>
+
+<h3>
+<a id="passbook" class="anchor" href="#passbook" aria-hidden="true"><span class="octicon octicon-link"></span></a>Passbook</h3>
 
 <ul>
 <li>
 <a href="https://github.com/frozon/passbook">passbook</a> - Passbook gem let's you create pkpass for passbook iOS 6.</li>
-</ul><h3>
-<a name="ui" class="anchor" href="#ui"><span class="octicon octicon-link"></span></a>UI</h3>
+</ul>
+
+<h3>
+<a id="reactivecocoa" class="anchor" href="#reactivecocoa" aria-hidden="true"><span class="octicon octicon-link"></span></a>ReactiveCocoa</h3>
+
+<ul>
+<li>
+<a href="https://github.com/ReactiveCocoa/ReactiveCocoa">ReactiveCocoa</a> - A framework for composing and transforming streams of values.</li>
+<li>
+<a href="https://github.com/CodaFi/AFNetworking-RACExtensions.git">AFNetworking-RACExtensions</a> - A delightful extension to the AFNetworking classes for iOS and Mac OS X.</li>
+</ul>
+
+<h3>
+<a id="ui" class="anchor" href="#ui" aria-hidden="true"><span class="octicon octicon-link"></span></a>UI</h3>
 
 <ul>
 <li>
 <a href="https://github.com/mRs-/HexColors.git">HexColors</a> - Easy HEX-Color and RGB-Color Handling for UIColor and NSColor as a drop in category. Former MLUIColorAdditions.</li>
-</ul><h3>
-<a name="my-podfile" class="anchor" href="#my-podfile"><span class="octicon octicon-link"></span></a>My Podfile</h3>
+<li>
+<a href="https://github.com/dzenbot/DZNEmptyDataSet">DZNEmptyDataSet</a> - A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display.</li>
+</ul>
 
-<div class="highlight highlight-ruby"><pre><span class="c1"># Database</span>
-<span class="n">pod</span> <span class="s1">'Realm'</span>
+<h3>
+<a id="my-podfile" class="anchor" href="#my-podfile" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Podfile</h3>
 
-<span class="c1"># Networking</span>
-<span class="n">pod</span> <span class="s1">'AFNetworking'</span>
+<div class="highlight highlight-ruby"><pre><span class="pl-c"><span class="pl-pdc">#</span> Database</span>
+pod <span class="pl-s1"><span class="pl-pds">'</span>Realm<span class="pl-pds">'</span></span>
 
-<span class="c1"># UI</span>
-<span class="n">pod</span> <span class="s1">'HexColors'</span>
-</pre></div>
+<span class="pl-c"><span class="pl-pdc">#</span> Networking</span>
+pod <span class="pl-s1"><span class="pl-pds">'</span>AFNetworking<span class="pl-pds">'</span></span>
+pod <span class="pl-s1"><span class="pl-pds">'</span>AFNetworking-RACExtensions<span class="pl-pds">'</span></span>, <span class="pl-cos"><span class="pl-pdc1">:</span>git</span> =&gt; <span class="pl-s1"><span class="pl-pds">'</span>https://github.com/CodaFi/AFNetworking-RACExtensions.git<span class="pl-pds">'</span></span>, <span class="pl-cos"><span class="pl-pdc1">:</span>tag</span> =&gt; <span class="pl-s1"><span class="pl-pds">'</span>0.1.5<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-pdc">#</span> ReactiveCocoa</span>
+pod <span class="pl-s1"><span class="pl-pds">'</span>ReactiveCocoa<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-pdc">#</span> UI</span>
+pod <span class="pl-s1"><span class="pl-pds">'</span>HexColors<span class="pl-pds">'</span></span></pre></div>
 
 <h1>
-<a name="frameworks" class="anchor" href="#frameworks"><span class="octicon octicon-link"></span></a>Frameworks</h1>
-
-<h1>
-<a name="debugging" class="anchor" href="#debugging"><span class="octicon octicon-link"></span></a>Debugging</h1>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h1>
 
 <ul>
-<li>Pretty log</li>
-</ul><div class="highlight highlight-c"><pre><span class="cp">#define NSLog(__FORMAT__, ...) NSLog((@"[%@] [Line %d] -&gt; " __FORMAT__), [[NSString stringWithUTF8String:__FILE__] lastPathComponent] , __LINE__, ##__VA_ARGS__)</span>
-</pre></div>
-
-<ul>
-<li>Pretty Alert</li>
-</ul><div class="highlight highlight-c"><pre><span class="cp">#define DebugAlert(__FORMAT__, ...)  { UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Debug Message"] message:[NSString stringWithFormat:@"[%@] \n [Line %d] \n" __FORMAT__, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, ##__VA_ARGS__]  delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil]; dispatch_async(dispatch_get_main_queue(), ^{ [alert show]; }); }</span>
-</pre></div>
+<li>
+<a href="http://cocoadocs.org">CocoaDocs</a> - Hosted documentation for Mac / iOS libraries.</li>
+</ul>
 
 <h1>
-<a name="e-book" class="anchor" href="#e-book"><span class="octicon octicon-link"></span></a>E-Book</h1>
+<a id="e-book" class="anchor" href="#e-book" aria-hidden="true"><span class="octicon octicon-link"></span></a>E-Book</h1>
 
 <ul>
 <li><a href="http://ios-blog.co.uk/resources/ios-succinctly-free-e-book/">iOS Succinctly - FREE</a></li>
 <li><a href="https://leanpub.com/ios7daybyday">iOS7 Day by Day</a></li>
-</ul><h1>
-<a name="ota-install-url-prefix" class="anchor" href="#ota-install-url-prefix"><span class="octicon octicon-link"></span></a>OTA Install URL Prefix</h1>
-
-<div class="highlight highlight-html"><pre>itms-services://?action=download-manifest<span class="err">&amp;</span>url=<span class="nt">&lt;plist</span> <span class="na">link</span><span class="nt">&gt;</span>
-</pre></div>
+</ul>
 
 <h1>
-<a name="folder" class="anchor" href="#folder"><span class="octicon octicon-link"></span></a>Folder</h1>
+<a id="frameworks" class="anchor" href="#frameworks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Frameworks</h1>
+
+<h1>
+<a id="websites" class="anchor" href="#websites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Websites</h1>
+
+<ul>
+<li>
+<a href="http://www.swifttoolbox.io">Swift Toolbox</a> - Swift toolbox is a community-supported catalog of iOS and OSX libraries written in the Swift Programming Language.</li>
+</ul>
+
+<h1>
+<a id="repository" class="anchor" href="#repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository</h1>
+
+<ul>
+<li>
+<a href="https://github.com/shu223/iOS8-Sampler">iOS8-Sampler</a> - Code examples for the new functions of iOS 8.</li>
+</ul>
+
+<h1>
+<a id="system" class="anchor" href="#system" aria-hidden="true"><span class="octicon octicon-link"></span></a>System</h1>
 
 <p><strong>Provisioning Profiles folder path</strong></p>
 
-<div class="highlight highlight-ruby"><pre><span class="o">~</span><span class="sr">/Library/</span><span class="no">MobileDevice</span><span class="o">/</span><span class="no">Provisioning</span><span class="p">\</span> <span class="no">Profiles</span>
-</pre></div>
+<div class="highlight highlight-ruby"><pre><span class="pl-ko">~</span><span class="pl-sr"><span class="pl-pds">/</span>Library<span class="pl-pds">/</span></span><span class="pl-v">MobileDevice</span><span class="pl-ko">/</span><span class="pl-v">Provisioning</span>\ <span class="pl-v">Profiles</span></pre></div>
 
 <h1>
-<a name="xcode" class="anchor" href="#xcode"><span class="octicon octicon-link"></span></a>Xcode</h1>
+<a id="swift" class="anchor" href="#swift" aria-hidden="true"><span class="octicon octicon-link"></span></a>Swift</h1>
+
+<ul>
+<li><a href="https://github.com/ksm/SwiftInFlux">An attempt to gather all that is in flux in Swift.</a></li>
+<li>
+<a href="https://github.com/Alamofire/Alamofire">Alamofire</a> - Elegant Networking in Swift.</li>
+<li>
+<a href="https://github.com/haginile/SwiftDate">SwiftDate</a> - A Smart Date/Calendar Library Written in Swift <a href="http://stockfuse.com">http://stockfuse.com</a>
+</li>
+<li>
+<a href="https://github.com/aleclarson/hex-kit">hex-kit</a> - Convert hex triplets into UIColors and CGColors!</li>
+<li>
+<a href="https://github.com/daltoniam/JSONJoy-Swift">JSONJoy-Swift</a> - Convert JSON to Swift objects.</li>
+</ul>
+
+<h1>
+<a id="tools" class="anchor" href="#tools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tools</h1>
+
+<ul>
+<li>
+<a href="http://nomad-cli.com">Nomad</a> - world-class command line utilities for iOS development</li>
+<li>
+<a href="https://github.com/nvie/gitflow">gitflow</a> - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.</li>
+<li>
+<a href="http://brew.sh">Homebrew</a> - The missing package manager for OS X.</li>
+<li>
+<a href="https://github.com/thlorenz/doctoc">doctoc</a> - Generates table of contents for markdown files inside local git repository. Links are compatible with anchors generated by github.</li>
+<li>
+<a href="https://github.com/KrauseFx/frameit">frameit</a> - Add gorgeous device frames around your screenshots</li>
+</ul>
+
+<h1>
+<a id="xcode" class="anchor" href="#xcode" aria-hidden="true"><span class="octicon octicon-link"></span></a>Xcode</h1>
 
 <h3>
-<a name="packge-manager" class="anchor" href="#packge-manager"><span class="octicon octicon-link"></span></a>Packge Manager</h3>
+<a id="packge-manager" class="anchor" href="#packge-manager" aria-hidden="true"><span class="octicon octicon-link"></span></a>Packge Manager</h3>
 
 <ul>
 <li>
 <a href="http://alcatraz.io">Alcatraz</a> - The package manager for Xcode</li>
-</ul><h3>
-<a name="plugin" class="anchor" href="#plugin"><span class="octicon octicon-link"></span></a>Plugin</h3>
+</ul>
+
+<h3>
+<a id="plugin" class="anchor" href="#plugin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plugin</h3>
 
 <ul>
 <li>
@@ -179,32 +283,19 @@
 <a href="https://github.com/trawor/XToDo">XToDo</a> - Xcode plugin to collect and list the <code>TODO</code>,<code>FIXME</code>,<code>???</code>,<code>!!!!</code>.</li>
 <li>
 <a href="https://github.com/Galeas/CocoaPodUI">CocoaPodUI</a> - Xcode plugin that implements CocoaPods GUI.</li>
-</ul><h1>
-<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h1>
-
-<ul>
-<li>
-<a href="http://cocoadocs.org">CocoaDocs</a> - Hosted documentation for Mac / iOS libraries.</li>
 </ul>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/retsohuang/iOS-Development/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/retsohuang/iOS-Development/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/retsohuang/iOS-Development"></a> is maintained by <a href="https://github.com/retsohuang">retsohuang</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+      </section>
     </div>
 
-  
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">iOS Development maintained by <a href="https://github.com/retsohuang">retsohuang</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
