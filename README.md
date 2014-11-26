@@ -16,7 +16,6 @@ List of iOS Frameworks, Articles, E-Books and more for developers.
     - [Passbook](#passbook)
     - [ReactiveCocoa](#reactivecocoa)
     - [UI](#ui)
-    - [My Podfile](#my-podfile)
 - [Documentation](#documentation)
 - [E-Book](#e-book)
 - [Frameworks](#frameworks)
@@ -70,22 +69,6 @@ List of iOS Frameworks, Articles, E-Books and more for developers.
 ### UI
 * [HexColors](https://github.com/mRs-/HexColors.git) - Easy HEX-Color and RGB-Color Handling for UIColor and NSColor as a drop in category. Former MLUIColorAdditions.
 * [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display.
-
-### My Podfile
-```ruby
-# Database
-pod 'Realm'
-
-# Networking
-pod 'AFNetworking'
-pod 'AFNetworking-RACExtensions', :git => 'https://github.com/CodaFi/AFNetworking-RACExtensions.git', :tag => '0.1.5'
-
-# ReactiveCocoa
-pod 'ReactiveCocoa'
-
-# UI
-pod 'HexColors'
-```
 
 # Documentation
 * [CocoaDocs](http://cocoadocs.org) - Hosted documentation for Mac / iOS libraries.
