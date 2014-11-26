@@ -114,6 +114,8 @@ pod 'HexColors'
 * [SwiftDate](https://github.com/haginile/SwiftDate) - A Smart Date/Calendar Library Written in Swift http://stockfuse.com
 * [hex-kit](https://github.com/aleclarson/hex-kit) - Convert hex triplets into UIColors and CGColors!
 * [JSONJoy-Swift](https://github.com/daltoniam/JSONJoy-Swift) - Convert JSON to Swift objects.
+* [Moya](https://github.com/ashfurrow/Moya) - Network abstraction layer written in Swift
+* [Curly](https://github.com/wircho/Curly#buttons-sliders-etc-uicontrol) - https://github.com/wircho/Curly#buttons-sliders-etc-uicontrol
 
 # Tools
 * [Nomad](http://nomad-cli.com) - world-class command line utilities for iOS development
