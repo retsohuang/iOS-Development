@@ -6,6 +6,7 @@ List of iOS Frameworks, Articles, E-Books and more for developers.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
+- [App](#app)
 - [Articles](#articles)
 - [CocoaPods Libraries](#cocoapods-libraries)
     - [Data Process](#data-process)
@@ -29,6 +30,9 @@ List of iOS Frameworks, Articles, E-Books and more for developers.
     - [Plugin](#plugin)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# App
+* [Eidolon](https://github.com/Artsy/eidolon) - The Artsy Auction Kiosk App.
 
 # Articles
 * [The Right Way to Ask Users for iOS Permissions](https://medium.com/p/96fa4eb54f2c)
