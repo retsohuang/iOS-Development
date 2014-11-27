@@ -98,7 +98,7 @@ List of iOS Frameworks, Articles, E-Books and more for developers.
 * [hex-kit](https://github.com/aleclarson/hex-kit) - Convert hex triplets into UIColors and CGColors!
 * [JSONJoy-Swift](https://github.com/daltoniam/JSONJoy-Swift) - Convert JSON to Swift objects.
 * [Moya](https://github.com/ashfurrow/Moya) - Network abstraction layer written in Swift
-* [Curly](https://github.com/wircho/Curly#buttons-sliders-etc-uicontrol) - https://github.com/wircho/Curly#buttons-sliders-etc-uicontrol
+* [Curly](https://github.com/wircho/Curly) - iOS library adding closure (block or callback) functionality to several native classes (alert views, buttons, sliders, storyboard segues, gesture recognizers, etc)
 
 # Tools
 * [Nomad](http://nomad-cli.com) - world-class command line utilities for iOS development
